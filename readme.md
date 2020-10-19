@@ -3,7 +3,7 @@ This code is in adjunct to the paper linked below.
 **Satwik Pasani; Sarthak Sahoo; Mohit Kumar Jolly; *Hybrid E/M phenotype(s) and stemness:
 a mechanistic connection embedded in network topology*, 2020**
 
-[bioarxiv link]\(pending\), [journal link]\(submitted\)
+[biorxiv link](https://www.biorxiv.org/content/10.1101/2020.10.18.341271v1), [journal link]\(submitted\)
 
 The `raw_data` zip file must be extracted first. It contains a nested folder organization according to the circuit and the level of expression (i.e. overexpression (oe10), downexpression (de10) or unperturbed (oe0)). Each final folder has the 5 `.topo` files for the 5 replicates of the circuit (except the uncoupled circuit), with one `scriptfile_all.sh` file per folder containing the bash script to run RACIPE on all the `.topo` files in the folder. The terminal outputs of the 5 runs, as evident from the bash script, is stored in the `termoutput` files. The actual outputted files are not included due to their large size.
 
